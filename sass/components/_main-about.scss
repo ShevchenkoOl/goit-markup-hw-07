@@ -19,11 +19,11 @@
     color: #FFFFFF;
 }
 
-.about-list {
+.about__list {
     display: flex;
 }
 
-.about-list .about-items+.about-items {
+.about__list .about__items+.about__items {
     margin-left: 30px;
 }
 
@@ -32,7 +32,7 @@
 
 }
 
-.main-paragraph {
+.about__paragraph {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -44,7 +44,7 @@
 
 }
 
-.main-priority {
+.about__priority {
     align-items: center;
     display: flex;
     margin-bottom: 30px;
@@ -55,7 +55,7 @@
     height: 120px;
 }
 
-.main-pictures {
+.about__pictures {
     display: inline-flex;
 }
 
